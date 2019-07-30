@@ -1,0 +1,113 @@
+body{
+height: 250vh;
+}
+
+header{
+
+    background: black;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 75px;
+    font-size: 36px;
+
+}
+
+
+.links1 {
+    font-size: 16px;
+    color:white;
+    /* z-index: 6; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 100px;
+
+}
+
+.links2 {
+    font-size: 12px;
+    color: gray;
+    /* z-index: 6; */
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+    position: relative;
+    left: 100px;
+
+}
+
+header{
+    display: flex;
+}
+
+
+.bigBox{
+
+    background-color:yellow;
+    width: 100vw;
+    height: 85vh;
+}
+
+.visionWrapper{
+
+    background-color: lightgrey;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-content: space-around;
+align-items: flex-end;
+position: relative;
+justify-content: center
+
+}
+
+
+
+.foot{
+    background-color: green;
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.smallBox{
+    position: relative;
+
+    background-color: blue;
+    width: 315px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.innerBox{
+   margin-top: 20PX;
+    background-color: silver;
+    width: 250px;
+    height: 175px;
+  
+
+}
+
+.downLink{
+
+}
